@@ -1,0 +1,32 @@
+{
+  "name": "TP5_LENGIV_REACT",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -b gh-pages",
+    "postbuild": "node -e \"const fs=require('fs');fs.copyFileSync('dist/index.html','dist/404.html');\""
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.9.1",
+    "@emailjs/browser": "^4.4.1",
+    "emailjs-com": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.10",
+    "gh-pages": "^6.2.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-user/TP5_LENGIV_REACT.git"
+  }
+}
