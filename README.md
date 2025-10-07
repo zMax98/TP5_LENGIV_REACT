@@ -1,22 +1,13 @@
 # TP5 – Lenguajes IV (React + Vite)
-
-Este repo es la evolución de TP3/TP4, agregando la **página API** que consume **REST Countries** (distinta de Rick & Morty).
-
-## Cómo correr
-```bash
-npm i
-npm run dev
-```
-
-## Deploy en GitHub Pages
-Asegurate de que `vite.config.js` tenga:
-```js
-export default defineConfig({ base: '/TP5_LENGIV_REACT/' })
-```
-Luego:
-```bash
-npm run deploy
-```
-
-- Página: `https://<usuario>.github.io/TP5_LENGIV_REACT/`
-- Repo: `https://github.com/<usuario>/TP5_LENGIV_REACT`
+En el sitio creado en el TP4:
+A) Agregar una nueva página denominada “API”, la cual, también debe ser
+agregada al menú de navegación existente, para acceder a la misma.
+Esta nueva página deberá tomar datos obtenidos de una API publica, y
+mostrar los mismos en la página API. Los campos mínimos a mostrar
+deben 4 como mínimos y debe existir una imagen en forma obligatoria.
+B) La API a utilizar será de su elección, sugiriendo que las mismas sean de
+temáticas relacionadas al proyecto de la catedra. (Precio de monedas
+extranjeras, Meteorología de una determinada ubicación)
+Se aclara que la actualización de este TP, también debe hacerse con las
+plantillas de Create-React o Vite y “NO” se puede utilizar la api vista en
+clase.
